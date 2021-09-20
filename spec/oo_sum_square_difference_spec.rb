@@ -1,4 +1,4 @@
-describe "SumSquareDifference" do
+describe "SumSquareDifference" do 
   describe "#difference" do
     it 'returns 170 for the first 5 natural numbers' do
       expect(SumSquareDifference.new(5).difference).to eq(170)
